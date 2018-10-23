@@ -49,9 +49,11 @@
 
 
         /*styles for channel area*/
-        h2 {
+        div {
             /* #2 #colorful #channelandchat */
             background-color: white;
+        }
+        ul {list-style-type: none;
         }
 
         /*styles for chat area*/
@@ -75,6 +77,8 @@
             font-size: larger;
             font-style: normal;
         }
+        a{ color:black;
+        }
 
     </style>
 
@@ -82,32 +86,35 @@
 
 <body>
 
-<!-- channel area -->
-<!-- #1 #channels #app-bar -->
-<h1>chatter|app</h1>
+<!-- channel area,adding duck logo -->
 
-<!-- #1 #channels #topics -->
-<h2>#Yummy</h2>
-<h2>#SevenContinents</h2>
-<h2>#KillerApp</h2>
-<h2>#FirstPersonOnMars</h2>
-<h2>#Octoberfest</h2>
+<h1><img src="https://ip.lfe.mw.tum.de/sections/imagetitle.png" alt="Duck logo for app" style="height: 56px; width: 20px">chatter|app</h1>
 
-<!-- #1 #channels #buttons -->
-<button>new</button>
-<button>trending</button>
-<button>favorites</button>
+<!-- #1 channel list with logos added -->
+<div>
+    <ul>
+    <li><img src="star.png" alt="Star for loved ones" style="width:20px; height:20px;">#Yummy</li>
+    <li><img src="star-o.png" alt="Star for loved ones" style="width:20px; height:20px;">#SevenContinents</li>
+    <li><img src="star-o.png" alt="Star for loved ones" style="width:20px; height:20px;">#KillerApp</li>
+    <li><img src="star.png" alt="Star for loved ones" style="width:20px; height:20px;">#FirstPersonOnMars</li>
+    <li><img src="star.png" alt="Star for loved ones" style="width:20px; height:20px;">#Octoberfest</li>
+    </ul>
+</div>
+
+<!-- buttons for channel part with images-->
+<button><img src="lightbulb-o.png" alt="Star for loved ones" style="width:20px; height:20px;">new</button>
+<button><img src="fire.png" alt="Star for loved ones" style="width:20px; height:20px;">trending</button>
+<button><img src="star.png" alt="Star for loved ones" style="width:20px; height:20px;">favorites</button>
 
 
-<!-- chat area -->
-<!-- #1 #chat #name -->
-<h1>#SevenContinents
+<!-- chat area with 80% of window and link to -->
+<h1><span style="width:80%">#SevenContinents
     <!-- #1 #chat #location is wrapped in small tag-->
     <small>by
         <!-- #2 #font #locations need an extra element, we'll use strong for w3w locations -->
-        <strong>cheeses.yard.applies</strong>
+        <strong><a href="https://map.what3words.com/cheeses.yard.applies" target="_blank">cheeses.yard.applies</a></strong>
     </small>
-</h1>
+</span></h1>
 
 <!-- #1 #chat #metadata contains location, weekday, day, and time -->
 <h3>
