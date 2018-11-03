@@ -1,0 +1,105 @@
+/*GLOBAL */
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+    font-family: 'Roboto', serif;
+  }
+h3 strong, button {
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+  }
+  * {
+    /* #2 #font #faces */
+    font-family: 'Roboto', sans-serif;
+    /*text-shadow: 4px 4px 4px #aaa;*/
+    margin: 0px;
+    padding: 0px;
+  }
+/*APP BAR */
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+
+  }
+h1 strong{
+    text-transform: uppercase;
+    color: white;
+}
+/*CHANNELS LIST */
+ul list {
+    list-style-type: none;
+    background-color: white;
+}
+/*TAB BAR */
+#tab-bar {
+  background-color:white;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 13px;
+  height: 72px;
+}
+.button-position {
+    box-sizing: border-box;
+    position: relative;
+    /*bottom: 4px;*/
+    border: 0px solid white;
+    margin: 16px;
+    width: 30%;
+    background-color: white;
+}
+.selected {
+    border-bottom: 4px solid #3F51B5;
+    color: #3F51B5
+
+}
+.button-position img {
+    padding-bottom: 4px;
+}
+.selected-channel {
+    color: #3F51B5;
+    border-left: 4px solid #3F51B5; 
+}
+ul * {
+    /*padding: 16px;*/
+    box-sizing: border-box;
+    height: 33px;
+    border: 1px solid white;
+    background-color: white;
+
+}
+ul img {
+    vertical-align: middle;
+}
+/*MESSAGES */
+.message { 
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 17.5%;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.message-mine { 
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.message h3 {
+    font-size: medium;
+}
+.message p {
+    background-color: white;
+    padding: 16px;
+}
+.message button {
+    background-color:#CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+.message em {
+    font-size: larger;
+    font-family: sans-serif;
+}
